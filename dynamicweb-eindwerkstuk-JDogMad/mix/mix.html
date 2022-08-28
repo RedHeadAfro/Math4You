@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix</title>
+    <link rel="stylesheet" href="mix.css">
+    <link rel="shortcut icon" href="../assets/img/page-logo__1_-removebg-preview.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Modak&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Startpage gets toggled between none and block  -->
+        <div id="start_page" style="display:none;">
+            <div class="wrapper_page">
+                <h2 id="h2_startpage">Welcome to Math4You</h2>
+                <p id="p_startpage">Let's practice our additions.
+                    <br>
+                    You will get a set of equation and 3 possibilities,
+                    choose the correct.
+                </p>
+                <button id="start">Let's begin</button>
+            </div>
+        </div>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+        <!-- ScoreBoard gets toggled between none and block  -->
+        <div id="end_page" style="display:none;">
+            <div class="wrapper_page">
+                <div class="gameover_page">
+                    <h2 id="h2_endpage">GAME OVER</h2>
+                    <br>
+                    <p id="extra_info"></p>
+                    <br>
+                    <p id="score">Score: <span id="end_score">0</span> </p>
+                    <p id="highscore">Highscore: <span id="high_score">0</span> </p>
+                </div>
+                <button id="replay"><a href="mix.html">Replay</a></button>
+                <button id="exit"><a href="../index.html">Exit</a></button>
+
+                <div class="animetedGuy_talksEnd" style="display: flex; justify-content: end;">
+                    <div class="speech-bubble">
+                        You are a math Champion!
+                    </div>
+                    <img src="../assets/img/SuperDuperHero.png" alt="" srcset="" style="width: 200px; height: 200px; margin-right: 20px;
+                        margin-left: -50px;">
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+    <!-- Main HTML for the game, gets toggled to none when game finished -->
+    <div class="game_page" id="game_page" style="display:none;">
+        <div class="wrapper">
+            <div class="header">
+                <img src="../assets/img/logo.png" alt="logo frog Math4You">
+                <button class="login-button">Login</button>
+            </div>
+        </div>
+
+        <main>
+            <div class="space"></div>
+            <div class="sub_header">
+                <h2 class="sub_title">Game of additions</h2>
+                <div class="space50"></div>
+            </div>
+
+            <div class="equation">
+                <div id="wrong_answer_text" style="display: none;">
+                    <p class="wrong"> Try again! </p>
+                </div>
+
+                <div class="addition">
+                    <p id="num1"></p>
+                    <p id="operator"></p>
+                    <p id="num2"></p>
+                    <p>=</p>
+                    <p id="answer" style="display: none;"></p>
+                    <p>?</p>
+
+
+                    <div id="wrong_answer" style="display: none;">
+                        <img src="../assets/img/icons8-close-100.png" alt="" style="width: 100px;">
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="answer_options">
+                        <button id="opt1">1</button>
+                        <button id="opt2">2</button>
+                        <button id="opt3">3</button>
+                    </div>
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="animetedGuy_talks">
+                <div class="speech-bubble">
+                    This is a real challenge!
+                </div>
+                <img src="../assets/img/Weirdo.png" alt="" srcset="" style="width: 200px; height: 200px; margin-right: 20px;
+                        margin-left: -50px;">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__addr">
+                <div class="footer__logo">
+                    <img src="../assets/img/logo.png" alt="" srcset="" width="100px">
+                </div>
+
+                <h2>Contact</h2>
+                <address>
+                    Brussels, Belgium
+
+                    <a class="footer__btn" href="mailto:math4you@gmail.com">Email Us</a>
+                </address>
+            </div>
+
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <h2 class="nav__title">Math4you</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Curriculum</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <h2 class="nav__title">Features</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Classroom</a></li>
+                        <li><a href="#">Individual Plans</a></li>
+                        <li><a href="#">Group Plans</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <h2 class="nav__title">Support</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="legal">
+                <p>&copy; 2022 All rights reserved to no one at all.</p>
+                <div class="legal__links">
+                    <span>Made with <span class="heart">♥</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="not_supported">
+        <p>This size is not yet supported</p>
+    </div>
+
+    <!-- Script -->
+    <script src="mix.js"></script>
+</body>
+
+</html>

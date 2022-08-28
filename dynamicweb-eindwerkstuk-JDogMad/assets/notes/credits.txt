@@ -1,0 +1,22 @@
+CREDITS: 
+GENERAL
+https://www.w3schools.com/
+https://stackoverflow.com/
+https://www.codegrepper.com/
+https://developer.mozilla.org/
+
+CSS: 
+ Caroussel: https://www.w3schools.com/howto/howto_js_slideshow.asp 
+ Subscribe-button: https://codepen.io/tudorworks/pen/GRmpNWe
+ Styling a footer: https://codepen.io/matheusalmeida/pen/aeLMMr?page=2
+
+JavaScript:
+API: 
+    Tutorial (modified): https://nordicapis.com/building-a-restful-api-using-node-js-and-mongodb/,
+                            https://morioh.com/p/77b34ddcd183,
+    CountAPI: https://countapi.xyz/,
+    Fetching data (modified): https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data
+
+LocalStorage:
+    More info (inspired): https://blog.logrocket.com/localstorage-javascript-complete-guide/
+    More info (inspired): https://www.section.io/engineering-education/how-to-use-localstorage-with-javascript/

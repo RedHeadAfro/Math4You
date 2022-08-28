@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math4You</title>
+    <link rel="stylesheet" href="./home/home.css">
+    <link rel="shortcut icon" href="assets/img/page-logo__1_-removebg-preview.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <script async
+        src="https://api.countapi.xyz/hit/tfestival.be/7dd19812-d3b3-4039-a023-d511e328879a?callback=websiteVisits">
+    </script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <img src="assets/img/logo.png" alt="logo frog Math4You">
+            <button class="login-button">Sign-up</button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="intro">
+            <h2 class="intro_title">Start your journey with Math4You!</h2>
+        </div>
+        <div class="wrapper">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img id="img1" alt="api photos" style=" width:100%; height: 200px;">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img id="img2" alt="api photos" style="width:100%; height: 200px;">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+
+            <h2 class="h2">Check these games</h2>
+
+            <div class="cont">
+                <div class="learn_add">
+                    <a href="addition/addition.html">
+                        <img alt="additions" src="assets/img/Addition.png">
+                    </a>
+                    <a href="addition/addition.html" class="add">Additions</a>
+                </div>
+                <div class="space"></div>
+                <div class="learn_sub">
+                    <a href="subtraction/subtraction.html">
+                        <img alt="subtractions" src="assets/img/Subtraction.png">
+                    </a>
+                    <a href="subtraction/subtraction.html" class="sub">Subtractions</a>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="learn_mul">
+                    <a href="multiplication/multiplication.html">
+                        <img alt="multiplications" src="assets/img/Multiplication.png">
+                    </a>
+                    <a href="multiplication/multiplication.html" class="mul">Multiplications</a>
+                </div>
+                <div class="space"></div>
+                <div class="learn_div">
+                    <a href="division/division.html">
+                        <img alt="divisions" src="assets/img/Division.png">
+                    </a>
+                    <a href="division/division.html" class="div">Divisions</a>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="learn_mix">
+                    <a href="mix/mix.html">
+                        <img alt="multiplications" src="assets/img/logos voor site (1).png">
+                    </a>
+                    <a href="mix/mix.html" class="mix">A real Challenge</a>
+                </div>
+            </div>
+
+            <div class="more">
+                <button class="more_btn">more games</button>
+            </div>
+        </div>
+
+        <div class="visits">
+            <h2>This site has been visited <span id="visits"></span> times.</h2>
+        </div>
+
+        <div class="ads">
+            <img id="image" alt="api photos" style="width: 100%; height: 100px;">
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrapper_footer">
+            <div class="info">
+                <h3>Get the latest updates</h3>
+                <p> Enter your email to hear about new games and exclusive offers</p>
+            </div>
+            <div class="content">
+                <form class="subscription">
+                    <input class="add-email" type="email" placeholder="Your email...">
+                    <button class="submit-email" type="button">
+                        <span class="before-submit">Subscribe</span>
+                        <span class="after-submit">Thank you for subscribing!</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="L-guy">
+                <img src="./assets/img/L-guy.png" alt="" srcset=""
+                    style="width: 100px; height: 100px; margin-top: 100px;">
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__addr">
+                <div class="footer__logo">
+                    <img src="./assets/img/logo.png" alt="" srcset="" width="100px">
+                </div>
+
+                <h2>Contact</h2>
+                <address>
+                    Brussels, Belgium
+
+                    <a class="footer__btn" href="mailto:math4you@gmail.com">Email Us</a>
+                </address>
+            </div>
+
+            <ul class="footer__nav">
+                <li class="nav__item">
+                    <h2 class="nav__title">Math4you</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Curriculum</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <h2 class="nav__title">Features</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Classroom</a></li>
+                        <li><a href="#">Individual Plans</a></li>
+                        <li><a href="#">Group Plans</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item">
+                    <h2 class="nav__title">Support</h2>
+
+                    <ul class="nav__ul">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="legal">
+                <p>&copy; 2022 All rights reserved to no one at all.</p>
+                <div class="legal__links">
+                    <span>Made with <span class="heart">♥</span></span>
+                </div>
+            </div>
+        </footer>
+    </footer>
+
+    <!-- Don't touch this -->
+    <div class="warning">
+        This size is not yet supported!
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/api-js/api.js" type="module"></script>
+    <script src="./home.js"></script>
+</body>
+
+</html>

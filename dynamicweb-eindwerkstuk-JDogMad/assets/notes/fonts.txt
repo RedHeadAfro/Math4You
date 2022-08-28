@@ -1,0 +1,7 @@
+FONTS:
+font-family: 'Erica One', cursive;
+font-family: 'Modak', cursive; 
+font-family: 'Akshar', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Concert one', cursive;
+font-family: 'Rubik', sans-serif;
